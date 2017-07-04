@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js" ></script>
+	<title>Trivia Game</title>
+</head>
+<body>
+	
+  <div id="headContainer">
+	  <header>
+		  <h1> Trivia game!</h1>
+	  </header>
+
+  	<p id="timeLeft">
+  		Time Remaining: 20 Seconds
+  	</p>
+  </div>
+
+ <div id="questionContainer">
+
+  <div id="question1Container">
+  	<h3>Name one of Geralt of Rivia's aliases:</h3>
+  	<form>
+  		<input type="radio" name="Q1" value="White Wolf">A. White Wolf
+  		<input type="radio" name="Q1" value="Green Wolf">B. Green Wolf
+      <br>
+  		<input type="radio" name="Q1" value="Yellow Wolf">C. Yellow Wolf
+  		<input type="radio" name="Q1" value="Clear One">D. Clear One
+  	</form>
+  	<p id="answer1"></p>
+  </div>
+
+	<br>
+
+  <div id="question2Container">
+  	<h3>What is the potency of Midare Setsugekka in FFXIV?</h3>
+  	<form>
+  		<input type="radio" name="Q2" value="550">A. 550
+  		<input type="radio" name="Q2" value="240">B. 240
+  		<input type="radio" name="Q2" value="630">C. 630
+  		<input type="radio" name="Q2" value="720">D. 720
+  	</form>
+  	<p id="answer2"></p>
+  </div>
+
+	<br>
+
+  <div id="question3Container">
+    <h3>Which of these is a town in Anglesey, Wales?</h3>
+    <form>
+      <input type="radio" name="Q3" value="Llanfairpwllgwyngyllgogerychwirndrobwllllantysiliogogogoch">A. Llanfairpwllgwyngyllgogerychwirndrobwllllantysiliogogogoch
+      <br>
+      <input type="radio" name="Q3" value="Llanfairpwllgwyngyllgogerychwyrndrobwllllantyxiliogogogoch">B. Llanfairpwllgwyngyllgogerychwyrndrobwllllantyxiliogogogoch
+      <br>
+      <input type="radio" name="Q3" value="Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch">C. Llanfairpwllgwyngyllgogerychwyrndrobwllllantyziliogogogoch
+      <br>
+      <input type="radio" name="Q3" value="Llanfairpwllgwyngyllgogerychxyrndrobwllllantysiliogogogoch">D. Llanfairpwllgwyngyllgogerychxyrndrobwllllantyfiliogogogoch
+    </form>
+  	<p id="answer3"></p>
+  </div>
+ </div>
+
+  <div id="statsContainer">
+  	<p id="statsRight">Correct:</p>
+  	<p id="statsWrong">Incorrect:</p>
+  </div>
+
+  <div id="buttonContainer">
+  	<button id="resetGame">Reset</button>
+  </div>
+
+
+</body>
+</html>
